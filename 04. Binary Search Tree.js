@@ -236,3 +236,8 @@ console.log('preOrder: ' + bst.preOrder());
 console.log('postOrder: ' + bst.postOrder());
 
 console.log('levelOrder: ' + bst.levelOrder());
+
+
+
+
+///kikkas sajdij

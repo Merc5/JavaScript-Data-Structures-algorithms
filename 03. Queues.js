@@ -78,3 +78,9 @@ pq.printCollection();
 pq.dequeue();
 console.log(pq.front());
 pq.printCollection();
+
+
+
+
+
+// console king
