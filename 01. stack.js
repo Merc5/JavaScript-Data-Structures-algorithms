@@ -72,6 +72,3 @@ console.log(myStack.size());
 console.log(myStack.peek());
 console.log(myStack.pop());
 console.log(myStack.peek());
-
-
-// console.log("Hello")

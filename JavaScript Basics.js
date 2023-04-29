@@ -2,34 +2,34 @@
 
 var firstName = 'Naruto';
 console.log(firstName);
-// output: Naruto
+// Output: Naruto
 
 var lastName = 'Uzumaki';
 var  age = 16;
 
 var fullAge = true;
 console.log(fullAge);
-// output: true
+// Output: true
 
 var job;
 console.log(job)
-// output: Undefined
+// Output: Undefined
 
 job - 'Teacher';
 console.log(job)
-// output: job
+// Output: job
 
 var 3years = 3;
-// not valid
-//fixed version
+// Not valid
+// Fixed version
 var _3years = 3;
 var $3years = 3;
-// output =  
+// Output
 var john/mark = 'Naruto and Sasuke';
-// error
-//fixed version
+// Error
+// Fixed version
 var narutoSasuke = 'Naruto and Sasuke';
-// never use javascript key words as variable names
+// Never use javascript key words as variable names
 
 /****************************************************************************/
 
@@ -75,7 +75,7 @@ console.log(now * 2);
 console.log(now + 2);
 console.log(now / 10);
 
-//Logical operators
+// Logical operators
 
 var narutoOlder = ageNaruto > ageSasuke;
 console,log(narutoOlder);
@@ -96,8 +96,3 @@ var yearNaruto = ...;
 var fullAge = 16;
 
 var is fullAge = now - yearNaruto >= fullAge;
-
-
-
-
-// kjsad kajhsoj jlkaJ
