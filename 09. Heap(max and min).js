@@ -131,6 +131,3 @@ let MaxHeap = function() {
 	};
 
 };
-
-
-/////
