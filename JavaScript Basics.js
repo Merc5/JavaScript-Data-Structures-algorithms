@@ -96,3 +96,7 @@ var yearNaruto = ...;
 var fullAge = 16;
 
 var is fullAge = now - yearNaruto >= fullAge;
+
+
+
+/////
