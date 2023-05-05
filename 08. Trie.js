@@ -75,6 +75,3 @@ console.log(myTrie.isWord('doll'))
 console.log(myTrie.isWord('dor'))
 console.log(myTrie.isWord('dorf'))
 console.log(myTrie.print())
-
-
-/////
