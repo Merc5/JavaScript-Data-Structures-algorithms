@@ -75,5 +75,3 @@ var hash = (string, max) => {
   ht.add('tux', 'penguin')
   console.log(ht.lookup('tux'))
   ht.print();
-
-  ///////
