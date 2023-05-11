@@ -96,3 +96,25 @@ do {
   }
 } while (choice !== 6);
 
+
+//////////////////////////////////////////////////
+
+Create a program that calculates the sum of all the elements in a given array of numbers. You can use any of the iteration methods discussed above to traverse 
+the array elements and accumulate the sum. For example, if the array is [1, 2, 3, 4, 5], the program should output 15 as the sum. This challenge will help you 
+practice array iteration and working with the length property.
+
+
+// Create a const with a sample array of numbers
+const numbers = [1, 2, 3, 4, 5];
+
+// Start the initial counting from 0
+let sum = 0;
+
+// Iterate through each element in the array and add to sum
+for (let i = 0; i < numbers.length; i++) {
+  sum += numbers[i];
+}
+
+// Print out the output of the code
+console.log(sum);
+
