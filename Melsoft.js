@@ -118,3 +118,48 @@ for (let i = 0; i < numbers.length; i++) {
 // Print out the output of the code
 console.log(sum);
 
+/////////////////////////////////////////////////////////////////////
+
+Create a program that calculates the total of all the numbers inside the nested array.
+
+let nestedArray = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+];
+
+// Write your code here to calculate the total of all numbers in the nestedArray
+
+
+
+
+let nestedArray = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9]
+];
+
+// In this code, we define a new variable nestedArray and assign it an array of three arrays. 
+// Each of the three inner arrays has three numbers. This creates a nested array structure, which 
+// can be thought of as an array of arrays.
+
+let total = 0;
+// Here, we define a new variable total and initialize it to zero. This variable will be used to accumulate the sum of all the numbers in the nested array.
+
+for (let i = 0; i < nestedArray.length; i++) {
+  for (let j = 0; j < nestedArray[i].length; j++) {
+    total += nestedArray[i][j];
+  }
+}
+
+This is the main part of the code where we calculate the total of all the numbers in the nested array. We use two nested for loops to iterate over each element 
+of the nested array. The outer loop iterates over the outer array, while the inner loop iterates over each inner array.
+
+For each inner array, we use the inner loop to iterate over each element of that array. We then add each element to the total variable using the += operator, 
+which is a shorthand way of writing total = total + nestedArray[i][j].
+
+Finally, after all the iterations are complete, the total variable will contain the sum of all the numbers in the nested array.
+
+
+console.log(total);
+// This line logs the total variable to the console, so we can see the final result of our calculation.
