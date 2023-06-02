@@ -3,17 +3,17 @@ function discountCode(coupon,subtotal)
 { 
     //set codes    
     //this section is for percentage off codes
-    var free = ['free123','free456','free789'];
-    var percent10 = ['ten1','ten2','ten3'];
-    var percent20 = ['twenty','twenty1','twenty2'];
+    let free = ['free123','free456','free789'];
+    let percent10 = ['ten1','ten2','ten3'];
+    let percent20 = ['twenty','twenty1','twenty2'];
     //this section is for dollar-value codes
-    var dollars20 = ['dollarcode1', 'dollarcode2'];
-    var dollars25 = ['dollarcode3', 'dollarcode4'];
+    let dollars20 = ['dollarcode1', 'dollarcode2'];
+    let dollars25 = ['dollarcode3', 'dollarcode4'];
     //set default values to no discount
-    var amount = subtotal;
-  	var coupon = coupon;
-    var percentDiscount = 1;
-    var dollarDiscount = 0;
+    let amount = subtotal;
+  	let coupon = coupon;
+    let percentDiscount = 1;
+    let dollarDiscount = 0;
     
     //adjust percentdiscount variable if the coupon code entered matches
     if(free.includes(coupon)){percentDiscount=0}
@@ -27,7 +27,7 @@ function discountCode(coupon,subtotal)
         else{if(dollars25.includes(coupon)){dollarDiscount=25}
             };
 
-    var totalAmount = amount*percentDiscount-dollarDiscount;
+    let totalAmount = amount*percentDiscount-dollarDiscount;
 
     //ensure non-negative total
     if(totalAmount < 0){totalAmount = 0};
