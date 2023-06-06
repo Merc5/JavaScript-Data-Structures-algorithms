@@ -163,3 +163,18 @@ Finally, after all the iterations are complete, the total variable will contain 
 
 console.log(total);
 // This line logs the total variable to the console, so we can see the final result of our calculation.
+
+
+//DOM practice
+<div id="container">
+  <p>First</p>
+  <p>Second</p>
+  <p>Third</p>
+</div>
+//DOM tracerse
+<script type="text/javascript">
+  let container = document.getElementById("container");
+  let firstParagraph = container.firstChild;
+  let secondParagraph = firstParagraph.nextSibling;
+  let thirdParagraph = secondParagraph.nextSibling;
+</script>
