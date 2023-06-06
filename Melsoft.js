@@ -178,3 +178,4 @@ console.log(total);
   let secondParagraph = firstParagraph.nextSibling;
   let thirdParagraph = secondParagraph.nextSibling;
 </script>
+
