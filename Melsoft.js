@@ -1,7 +1,4 @@
 
-
-
-
 // A simple task list in JavaScript
 
 // Create an empty array to hold all the tasks addeds
