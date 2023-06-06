@@ -176,3 +176,13 @@ console.log(total);
   let thirdParagraph = secondParagraph.nextSibling;
 </script>
 
+
+// DOM tree - various ways
+let container = document.getElementById("container");
+let newParagraph = document.createElement("p");
+let textNode = document.createTextNode("New paragraph");
+
+newParagraph.appendChild(textNode);
+container.appendChild(newParagraph);
+
+
