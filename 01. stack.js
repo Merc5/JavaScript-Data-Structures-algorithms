@@ -2,19 +2,19 @@
 
 // functions: push, pop, peek, length
 
-var letters = []; // this is our stack
+let letters = []; // this is our stack
 
-var word = "freeCodeCamp"
+let word = "freeCodeCamp"
 
-var rword = "";
+let rword = "";
 
 // put letters of word into stack
-for (var i = 0; i < word.length; i++) {
+for (let i = 0; i < word.length; i++) {
    letters.push(word[i]);
 }
 
 // pop off the stack in reverse order
-for (var i = 0; i < word.length; i++) {
+for (let i = 0; i < word.length; i++) {
    rword += letters.pop(); 
 }
 
@@ -28,7 +28,7 @@ else {
 
 
 // Creates a stack
-var Stack = function() {
+let Stack = function() {
     this.count = 0;
     this.storage = {};
   
@@ -45,7 +45,7 @@ var Stack = function() {
         }
 
         this.count--;
-        var result = this.storage[this.count];
+        let result = this.storage[this.count];
         delete this.storage[this.count];
         return result;
     }
@@ -60,7 +60,7 @@ var Stack = function() {
     }
 }
 
-var myStack = new Stack();
+let myStack = new Stack();
 
 myStack.push(1);
 myStack.push(2);
