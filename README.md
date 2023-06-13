@@ -2,5 +2,4 @@
 
 #Tutorial FreeCodeCamp
 #Youtube JavaScript Basics
-//////////////
-////////////////
+////////////
