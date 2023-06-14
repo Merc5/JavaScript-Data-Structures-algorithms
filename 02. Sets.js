@@ -2,7 +2,7 @@
 
 function mySet() {
     // the var collection will hold the set
-    var collection = [];
+    let collection = [];
     // this method will check for the presence of an element and return true or false
     this.has = function(element) {
         return (collection.indexOf(element) !== -1);
@@ -34,9 +34,9 @@ function mySet() {
     };
     // this method will return the union of two sets
     this.union = function(otherSet) {
-        var unionSet = new mySet();
-        var firstSet = this.values();
-        var secondSet = otherSet.values();
+        let unionSet = new mySet();
+        let firstSet = this.values();
+        let secondSet = otherSet.values();
         firstSet.forEach(function(e){
             unionSet.add(e);
         });
